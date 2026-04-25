@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  
+  <title>Document</title>
+  
+<link rel="stylesheet" href="style.css">
+
+
+
+</head>
+<body>
+  
+  
+  <div class="player">
+  <div class="playlist" id="playlist">
+  <!-- isi lagu akan di-generate dari JS -->
+</div>
+  <h2 id="title">Judul Lagu</h2>
+
+  <div id="equalizer">
+    <span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
+  <div class="controls">
+    <button id="prev">⏮</button>
+    <button id="play">▶</button>
+    <button id="next">⏭</button>
+   
+  </div>
+
+  <input type="range" id="progress">
+  <input type="range" id="volume" min="0" max="1" step="0.1">
+
+  <audio id="audio" preload="auto"></audio>
+  
+
+</div>
+<script src="script.js"></script>
+
+
+</body>
+</html>
